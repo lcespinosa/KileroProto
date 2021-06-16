@@ -1,11 +1,11 @@
 {
   "dependencies": {
+    "com.dapperdino.dappertools": "https://github.com/DapperDino/Dapper-Tools.git",
     "com.unity.ads": "2.0.8",
     "com.unity.analytics": "3.2.2",
     "com.unity.collab-proxy": "1.2.16",
     "com.unity.ide.rider": "1.1.4",
     "com.unity.ide.vscode": "1.1.4",
-    "com.unity.package-manager-ui": "2.0.3",
     "com.unity.postprocessing": "2.3.0",
     "com.unity.purchasing": "2.0.3",
     "com.unity.test-framework": "1.1.11",
@@ -49,6 +49,10 @@
     "io.colyseus.sdk": {
       "revision": "upm",
       "hash": "0e3877dc56ecad06526d3b0c71ea2325df876b20"
+    },
+    "com.dapperdino.dappertools": {
+      "revision": "HEAD",
+      "hash": "4f6ba9c8b17634ccbe31adcc2619991d8c92c9fe"
     }
   }
 }
