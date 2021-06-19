@@ -1,0 +1,198 @@
+Index: ProjectSettings/EditorSettings.asset
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>%YAML 1.1\r\n%TAG !u! tag:unity3d.com,2011:\r\n--- !u!159 &1\r\nEditorSettings:\r\n  m_ObjectHideFlags: 0\r\n  serializedVersion: 9\r\n  m_ExternalVersionControlSupport: Visible Meta Files\r\n  m_SerializationMode: 2\r\n  m_LineEndingsForNewScripts: 0\r\n  m_DefaultBehaviorMode: 0\r\n  m_PrefabRegularEnvironment: {fileID: 0}\r\n  m_PrefabUIEnvironment: {fileID: 0}\r\n  m_SpritePackerMode: 0\r\n  m_SpritePackerPaddingPower: 1\r\n  m_EtcTextureCompressorBehavior: 1\r\n  m_EtcTextureFastCompressor: 1\r\n  m_EtcTextureNormalCompressor: 2\r\n  m_EtcTextureBestCompressor: 4\r\n  m_ProjectGenerationIncludedExtensions: txt;xml;fnt;cd;asmref\r\n  m_ProjectGenerationRootNamespace: \r\n  m_CollabEditorSettings:\r\n    inProgressEnabled: 1\r\n  m_EnableTextureStreamingInEditMode: 1\r\n  m_EnableTextureStreamingInPlayMode: 1\r\n  m_AsyncShaderCompilation: 1\r\n  m_EnterPlayModeOptionsEnabled: 0\r\n  m_EnterPlayModeOptions: 3\r\n  m_ShowLightmapResolutionOverlay: 1\r\n  m_UseLegacyProbeSampleCount: 1\r\n  m_AssetPipelineMode: 1\r\n  m_CacheServerMode: 0\r\n  m_CacheServerEndpoint: \r\n  m_CacheServerNamespacePrefix: default\r\n  m_CacheServerEnableDownload: 1\r\n  m_CacheServerEnableUpload: 1\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/ProjectSettings/EditorSettings.asset b/ProjectSettings/EditorSettings.asset
+--- a/ProjectSettings/EditorSettings.asset	(revision 1efed5a4042c6422c9c640e0c399cf1e8829ef72)
++++ b/ProjectSettings/EditorSettings.asset	(date 1623969438543)
+@@ -10,7 +10,7 @@
+   m_DefaultBehaviorMode: 0
+   m_PrefabRegularEnvironment: {fileID: 0}
+   m_PrefabUIEnvironment: {fileID: 0}
+-  m_SpritePackerMode: 0
++  m_SpritePackerMode: 4
+   m_SpritePackerPaddingPower: 1
+   m_EtcTextureCompressorBehavior: 1
+   m_EtcTextureFastCompressor: 1
+Index: Assets/Sprites/tile-terrain-32x32.png.meta
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Assets/Sprites/tile-terrain-32x32.png.meta b/Assets/Sprites/tile-terrain-32x32.png.meta
+new file mode 100644
+--- /dev/null	(date 1624000407733)
++++ b/Assets/Sprites/tile-terrain-32x32.png.meta	(date 1624000407733)
+@@ -0,0 +1,127 @@
++fileFormatVersion: 2
++guid: 291e3082b868d1045bca7aa22d1f4d6d
++TextureImporter:
++  internalIDToNameTable: []
++  externalObjects: {}
++  serializedVersion: 10
++  mipmaps:
++    mipMapMode: 0
++    enableMipMap: 1
++    sRGBTexture: 1
++    linearTexture: 0
++    fadeOut: 0
++    borderMipMap: 0
++    mipMapsPreserveCoverage: 0
++    alphaTestReferenceValue: 0.5
++    mipMapFadeDistanceStart: 1
++    mipMapFadeDistanceEnd: 3
++  bumpmap:
++    convertToNormalMap: 0
++    externalNormalMap: 0
++    heightScale: 0.25
++    normalMapFilter: 0
++  isReadable: 0
++  streamingMipmaps: 0
++  streamingMipmapsPriority: 0
++  grayScaleToAlpha: 0
++  generateCubemap: 6
++  cubemapConvolution: 0
++  seamlessCubemap: 0
++  textureFormat: 1
++  maxTextureSize: 2048
++  textureSettings:
++    serializedVersion: 2
++    filterMode: 0
++    aniso: -1
++    mipBias: -100
++    wrapU: -1
++    wrapV: -1
++    wrapW: -1
++  nPOTScale: 1
++  lightmap: 0
++  compressionQuality: 50
++  spriteMode: 0
++  spriteExtrude: 1
++  spriteMeshType: 1
++  alignment: 0
++  spritePivot: {x: 0.5, y: 0.5}
++  spritePixelsToUnits: 100
++  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
++  spriteGenerateFallbackPhysicsShape: 1
++  alphaUsage: 1
++  alphaIsTransparency: 0
++  spriteTessellationDetail: -1
++  textureType: 0
++  textureShape: 1
++  singleChannelComponent: 0
++  maxTextureSizeSet: 0
++  compressionQualitySet: 0
++  textureFormatSet: 0
++  platformSettings:
++  - serializedVersion: 3
++    buildTarget: DefaultTexturePlatform
++    maxTextureSize: 2048
++    resizeAlgorithm: 0
++    textureFormat: -1
++    textureCompression: 0
++    compressionQuality: 50
++    crunchedCompression: 0
++    allowsAlphaSplitting: 0
++    overridden: 0
++    androidETC2FallbackOverride: 0
++    forceMaximumCompressionQuality_BC6H_BC7: 0
++  - serializedVersion: 3
++    buildTarget: Standalone
++    maxTextureSize: 2048
++    resizeAlgorithm: 0
++    textureFormat: -1
++    textureCompression: 0
++    compressionQuality: 50
++    crunchedCompression: 0
++    allowsAlphaSplitting: 0
++    overridden: 0
++    androidETC2FallbackOverride: 0
++    forceMaximumCompressionQuality_BC6H_BC7: 0
++  - serializedVersion: 3
++    buildTarget: Android
++    maxTextureSize: 2048
++    resizeAlgorithm: 0
++    textureFormat: -1
++    textureCompression: 0
++    compressionQuality: 50
++    crunchedCompression: 0
++    allowsAlphaSplitting: 0
++    overridden: 0
++    androidETC2FallbackOverride: 0
++    forceMaximumCompressionQuality_BC6H_BC7: 0
++  - serializedVersion: 3
++    buildTarget: WebGL
++    maxTextureSize: 2048
++    resizeAlgorithm: 0
++    textureFormat: -1
++    textureCompression: 0
++    compressionQuality: 50
++    crunchedCompression: 0
++    allowsAlphaSplitting: 0
++    overridden: 0
++    androidETC2FallbackOverride: 0
++    forceMaximumCompressionQuality_BC6H_BC7: 0
++  spriteSheet:
++    serializedVersion: 2
++    sprites: []
++    outline: []
++    physicsShape: []
++    bones: []
++    spriteID: 
++    internalID: 0
++    vertices: []
++    indices: 
++    edges: []
++    weights: []
++    secondaryTextures: []
++  spritePackingTag: 
++  pSDRemoveMatte: 0
++  pSDShowRemoveMatteOption: 0
++  userData: 
++  assetBundleName: 
++  assetBundleVariant: 
+Index: Logs/Packages-Update.log
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>\r\n=== Mon Jun 14 20:48:54 2021\r\n\r\nPackages were changed.\r\nUpdate Mode: mergeDefaultDependencies\r\n\r\nThe following packages were added:\r\n  com.unity.textmeshpro@2.0.1\r\n  com.unity.collab-proxy@1.2.16\r\n  com.unity.test-framework@1.1.11\r\n  com.unity.timeline@1.2.10\r\n  com.unity.ide.vscode@1.1.4\r\n  com.unity.ide.rider@1.1.4\r\n  com.unity.ugui@1.0.0\r\n  com.unity.modules.ai@1.0.0\r\n  com.unity.modules.animation@1.0.0\r\n  com.unity.modules.androidjni@1.0.0\r\n  com.unity.modules.assetbundle@1.0.0\r\n  com.unity.modules.audio@1.0.0\r\n  com.unity.modules.cloth@1.0.0\r\n  com.unity.modules.director@1.0.0\r\n  com.unity.modules.imageconversion@1.0.0\r\n  com.unity.modules.imgui@1.0.0\r\n  com.unity.modules.jsonserialize@1.0.0\r\n  com.unity.modules.particlesystem@1.0.0\r\n  com.unity.modules.physics@1.0.0\r\n  com.unity.modules.physics2d@1.0.0\r\n  com.unity.modules.screencapture@1.0.0\r\n  com.unity.modules.terrain@1.0.0\r\n  com.unity.modules.terrainphysics@1.0.0\r\n  com.unity.modules.tilemap@1.0.0\r\n  com.unity.modules.ui@1.0.0\r\n  com.unity.modules.uielements@1.0.0\r\n  com.unity.modules.umbra@1.0.0\r\n  com.unity.modules.unityanalytics@1.0.0\r\n  com.unity.modules.unitywebrequest@1.0.0\r\n  com.unity.modules.unitywebrequestassetbundle@1.0.0\r\n  com.unity.modules.unitywebrequestaudio@1.0.0\r\n  com.unity.modules.unitywebrequesttexture@1.0.0\r\n  com.unity.modules.unitywebrequestwww@1.0.0\r\n  com.unity.modules.vehicles@1.0.0\r\n  com.unity.modules.video@1.0.0\r\n  com.unity.modules.vr@1.0.0\r\n  com.unity.modules.wind@1.0.0\r\n  com.unity.modules.xr@1.0.0\r\nThe following packages were updated:\r\n  com.unity.postprocessing from version 2.1.4 to 2.3.0\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Logs/Packages-Update.log b/Logs/Packages-Update.log
+--- a/Logs/Packages-Update.log	(revision 1efed5a4042c6422c9c640e0c399cf1e8829ef72)
++++ b/Logs/Packages-Update.log	(date 1624000407740)
+@@ -45,3 +45,14 @@
+   com.unity.modules.xr@1.0.0
+ The following packages were updated:
+   com.unity.postprocessing from version 2.1.4 to 2.3.0
++
++=== Mon Jun 14 22:17:41 2021
++
++Packages were changed.
++Update Mode: mergeDefaultDependencies
++
++The following packages were added:
++  com.unity.ads@2.0.8
++  com.unity.analytics@3.2.2
++  com.unity.package-manager-ui@2.0.3
++  com.unity.purchasing@2.0.3
+Index: Packages/manifest.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>{\r\n  \"dependencies\": {\r\n    \"com.unity.collab-proxy\": \"1.2.16\",\r\n    \"com.unity.ide.rider\": \"1.1.4\",\r\n    \"com.unity.ide.vscode\": \"1.1.4\",\r\n    \"com.unity.postprocessing\": \"2.3.0\",\r\n    \"com.unity.test-framework\": \"1.1.11\",\r\n    \"com.unity.textmeshpro\": \"2.0.1\",\r\n    \"com.unity.timeline\": \"1.2.10\",\r\n    \"com.unity.ugui\": \"1.0.0\",\r\n    \"com.unity.modules.ai\": \"1.0.0\",\r\n    \"com.unity.modules.androidjni\": \"1.0.0\",\r\n    \"com.unity.modules.animation\": \"1.0.0\",\r\n    \"com.unity.modules.assetbundle\": \"1.0.0\",\r\n    \"com.unity.modules.audio\": \"1.0.0\",\r\n    \"com.unity.modules.cloth\": \"1.0.0\",\r\n    \"com.unity.modules.director\": \"1.0.0\",\r\n    \"com.unity.modules.imageconversion\": \"1.0.0\",\r\n    \"com.unity.modules.imgui\": \"1.0.0\",\r\n    \"com.unity.modules.jsonserialize\": \"1.0.0\",\r\n    \"com.unity.modules.particlesystem\": \"1.0.0\",\r\n    \"com.unity.modules.physics\": \"1.0.0\",\r\n    \"com.unity.modules.physics2d\": \"1.0.0\",\r\n    \"com.unity.modules.screencapture\": \"1.0.0\",\r\n    \"com.unity.modules.terrain\": \"1.0.0\",\r\n    \"com.unity.modules.terrainphysics\": \"1.0.0\",\r\n    \"com.unity.modules.tilemap\": \"1.0.0\",\r\n    \"com.unity.modules.ui\": \"1.0.0\",\r\n    \"com.unity.modules.uielements\": \"1.0.0\",\r\n    \"com.unity.modules.umbra\": \"1.0.0\",\r\n    \"com.unity.modules.unityanalytics\": \"1.0.0\",\r\n    \"com.unity.modules.unitywebrequest\": \"1.0.0\",\r\n    \"com.unity.modules.unitywebrequestassetbundle\": \"1.0.0\",\r\n    \"com.unity.modules.unitywebrequestaudio\": \"1.0.0\",\r\n    \"com.unity.modules.unitywebrequesttexture\": \"1.0.0\",\r\n    \"com.unity.modules.unitywebrequestwww\": \"1.0.0\",\r\n    \"com.unity.modules.vehicles\": \"1.0.0\",\r\n    \"com.unity.modules.video\": \"1.0.0\",\r\n    \"com.unity.modules.vr\": \"1.0.0\",\r\n    \"com.unity.modules.wind\": \"1.0.0\",\r\n    \"com.unity.modules.xr\": \"1.0.0\"\r\n  }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Packages/manifest.json b/Packages/manifest.json
+--- a/Packages/manifest.json	(revision 1efed5a4042c6422c9c640e0c399cf1e8829ef72)
++++ b/Packages/manifest.json	(date 1623969616361)
+@@ -1,5 +1,6 @@
+ {
+   "dependencies": {
++    "com.unity.2d.sprite": "1.0.0",
+     "com.unity.collab-proxy": "1.2.16",
+     "com.unity.ide.rider": "1.1.4",
+     "com.unity.ide.vscode": "1.1.4",
