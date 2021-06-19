@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "com.dapperdino.dappertools": "https://github.com/DapperDino/Dapper-Tools.git",
     "com.unity.2d.sprite": "1.0.0",
     "com.unity.collab-proxy": "1.2.16",
     "com.unity.ide.rider": "1.1.4",
@@ -40,5 +41,11 @@
     "com.unity.modules.vr": "1.0.0",
     "com.unity.modules.wind": "1.0.0",
     "com.unity.modules.xr": "1.0.0"
+  },
+  "lock": {
+    "com.dapperdino.dappertools": {
+      "revision": "HEAD",
+      "hash": "4f6ba9c8b17634ccbe31adcc2619991d8c92c9fe"
+    }
   }
 }
