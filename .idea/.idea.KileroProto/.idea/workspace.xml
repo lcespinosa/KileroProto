@@ -2,12 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed308cfd-02cb-42f0-be42-1f9f11455fbe" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/LineMat.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/New Physic Material.physicMaterial" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Formation A.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Jugador NPC A.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Line.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/BallController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/TestingLine.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.KileroProto/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.KileroProto/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.KileroProto/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.KileroProto/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.KileroProto/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.KileroProto/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Terreno.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Terreno.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/01.Managers.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BallImpulse.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BallImpulse.cs.meta" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,25 +37,33 @@
       </set>
     </option>
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TestingLine.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
       <option value="$PROJECT_DIR$/Assets/Scripts/ballImpulse.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/BallImpulse.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/TestingLine.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/BallController.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1u90andy1CDTSExTxZWmXaworfF" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.C#" />
+    <property name="settings.editor.selected.configurable" value="preferences.updates" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
@@ -107,9 +123,19 @@
       <option name="presentableId" value="Default" />
       <updated>1624062564689</updated>
       <workItem from="1624062570490" duration="34000" />
-      <workItem from="1624062628069" duration="10541000" />
+      <workItem from="1624062628069" duration="11022000" />
+      <workItem from="1624157391636" duration="3236000" />
+      <workItem from="1624176457193" duration="572000" />
+      <workItem from="1624177109133" duration="8736000" />
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Implementacion del balon">
+      <created>1624156938670</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1624156938670</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -130,10 +156,12 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="prueba loca branch mia" />
     <MESSAGE value="logs" />
     <MESSAGE value="terrain update" />
-    <option name="LAST_COMMIT_MESSAGE" value="terrain update" />
+    <MESSAGE value="Implementacion del balon" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implementacion del balon" />
   </component>
 </project>
