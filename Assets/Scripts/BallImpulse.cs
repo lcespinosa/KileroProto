@@ -1,10 +1,16 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
+using Game;
+using Input;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
 public class BallImpulse : MonoBehaviour
 {
+    
+    
+    
     public float power = 1.0f;
     public Rigidbody rb;
     public Vector3 initialTouchPosition;
@@ -49,9 +55,8 @@ public class BallImpulse : MonoBehaviour
         return draggedDir;
     }*/
     
-    
     // Update is called once per frame
-    void Update()
+    /*void Update()
     {
         for (int i = 0; i < Input.touchCount; i++)
         {
@@ -80,5 +85,5 @@ public class BallImpulse : MonoBehaviour
                 //rb.AddRelativeForce(direction, ForceMode.Impulse);                
             }
         }
-    }
+    }*/
 }

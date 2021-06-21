@@ -1,4 +1,6 @@
-﻿using UnityEngine;
+﻿using Environment;
+using Input;
+using UnityEngine;
 using Utility;
 
 namespace Game
@@ -11,6 +13,21 @@ namespace Game
         }
 
         #region Properties
+
+        private BallManager _ballManager;
+
+        public BallManager BallManager
+        {
+            get
+            {
+                if (_ballManager == null)
+                {
+                    _ballManager = GameObject.FindWithTag("BallObject")?.GetComponent<BallManager>();
+                }
+
+                return _ballManager;
+            }
+        }
         
         private bool _paused;
         public bool Paused {
@@ -51,6 +68,23 @@ namespace Game
 
         #endregion
 
+        #region Controls
+
+        private InputManager _input;
+        public InputManager Input
+        {
+            get
+            {
+                if (_input == null)
+                {
+                    _input = transform.GetComponentInChildren<InputManager>();
+                }
+                return _input;
+            }
+        }
+
+        #endregion
+        
         // Start is called before the first frame update
         void Start()
         {
