@@ -24,6 +24,8 @@ namespace Environment
         private Vector3 _endTouchPosition;
         private float _endTouchTime;
 
+        [SerializeField] private float velocityFactor;
+
         #endregion
 
         private void Awake()
@@ -77,7 +79,7 @@ namespace Environment
         {
             var ray = _camera.ScreenPointToRay(touchPosition);
             RaycastHit raycastHit;
-            if (Physics.Raycast(ray, out raycastHit))
+            if (Physics.Raycast(ray, out raycastHit, Mathf.Infinity, ~Physics.IgnoreRaycastLayer))
             {
                 var rigidbody = raycastHit.collider.GetComponent<Rigidbody>();
                 return (rigidbody != null && rigidbody.gameObject.CompareTag("BallObject"));
@@ -91,7 +93,7 @@ namespace Environment
             Vector3 direction = _endTouchPosition - _startTouchPosition;
             float duration = _endTouchTime - _startTouchTime;
             float distance = direction.magnitude;
-            Vector3 velocity = direction.normalized * (distance / duration);
+            Vector3 velocity = direction.normalized * ((distance / duration) * velocityFactor);
             PhysicsHelper.ApplyForceToReachVelocity(_rigidbody, velocity, 1, ForceMode.Acceleration);
         }
     }
